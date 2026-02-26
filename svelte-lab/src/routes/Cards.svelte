@@ -3,15 +3,16 @@
       import 'font-awesome/css/font-awesome.min.css';
        
 </script>
-
-<div class="cards-container">
-    {#each data as item}
-    <div class="card">
-       <span class={item.icon}></span>
-        <h2>{item.title}</h2>
-        <p>{item.description}</p>
+<div class="container">
+    <div class="cards-container">
+        {#each data as item}
+        <div class="card">
+        <span class={item.icon}></span>
+            <h2>{item.title}</h2>
+            <p>{item.description}</p>
+        </div>
+    {/each}
     </div>
-  {/each}
 </div>
 
 
@@ -21,7 +22,7 @@
 .cards-container{
     display: grid;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     width: 100%;
     grid-template-columns: repeat(3,300px);
     

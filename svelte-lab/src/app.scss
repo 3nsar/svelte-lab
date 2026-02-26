@@ -15,6 +15,7 @@
         box-sizing: border-box;
         font-family: Arial, sans-serif;    
         line-height: 1.4;
+        color: $primaryGray;
 
         
     }
@@ -34,7 +35,7 @@
     background-color: $primaryBlack;
  }
 
- .button-common{
+ .button-big{
     background-color: $primaryBlue;
     color:$primaryWhite;
     padding: 15px;
@@ -48,6 +49,20 @@
 }
 
  }
+
+  .button-common{
+    background-color: $primaryBlue;
+    color:$primaryWhite;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+     &:hover{
+        cursor: pointer;
+        background-color: #1816aa;
+        transition:background-color 0.3s ease; /* 👈 Hier die Transition */
+}
+  }
 
   .title{
     text-align: center;

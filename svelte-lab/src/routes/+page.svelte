@@ -1,11 +1,13 @@
 <script>
     import Hero from "./Hero.svelte";
     import Cards from "./Cards.svelte";
-   import '../app.scss';
+    import '../app.scss';
+	  import Gallery from "./Gallery.svelte";
 </script>
 
 <Hero/>
 <Cards/>
+<Gallery/>
 
 
 <style lang="scss">
