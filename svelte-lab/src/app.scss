@@ -1,0 +1,49 @@
+  $primaryWhite: #f7f7f7;
+  $primaryGray: #696969;
+  $primaryBlack: #0f0f0f;
+  $primaryBlue:#2521e6;
+
+  $fontSizeTitle:130px;
+  $fontSizeTitleText:30px;
+  
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;    
+        line-height: 1.4;
+
+        
+    }
+
+.rainbow {
+  background-image: linear-gradient(to top,   $primaryBlue,   $primaryBlue, $primaryWhite , $primaryWhite, );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+  .container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $primaryBlack;
+ }
+
+  .title{
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    h1{
+        color:$primaryWhite;
+        font-size:   $fontSizeTitle;
+        font-weight: bold;
+    }
+     h2{
+       color: $primaryGray;
+       font-size:  $fontSizeTitleText;
+       font-weight: normal;
+    }
+  }
+
