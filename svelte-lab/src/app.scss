@@ -31,10 +31,26 @@
     background-color: $primaryBlack;
  }
 
+ .button-common{
+    background-color: $primaryBlue;
+    color:$primaryWhite;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+     &:hover{
+        cursor: pointer;
+        background-color: #1816aa;
+        transition:background-color 0.3s ease; /* 👈 Hier die Transition */
+}
+
+ }
+
   .title{
     text-align: center;
     width: 100%;
     max-width: 1200px;
+    
     h1{
         color:$primaryWhite;
         font-size:   $fontSizeTitle;
@@ -44,6 +60,7 @@
        color: $primaryGray;
        font-size:  $fontSizeTitleText;
        font-weight: normal;
+       margin-bottom: 40px;
     }
   }
 

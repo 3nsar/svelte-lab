@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "fa-solid fa-palette",
+    "title": "UI Design",
+    "description": "Creating clean and intuitive user interfaces focused on usability and clarity."
+  },
+  {
+    "icon": "fa-solid fa-lightbulb",
+    "title": "Digital Concept",
+    "description": "Developing strategic digital concepts tailored to modern user needs."
+  },
+  {
+    "icon": "fa-solid fa-chart-line",
+    "title": "Sell Strategy",
+    "description": "Designing conversion-driven strategies to increase engagement and sales."
+  },
+  {
+    "icon": "fa-solid fa-code",
+    "title": "Web Development",
+    "description": "Building fast and scalable web applications using modern technologies."
+  },
+  {
+    "icon": "fa-solid fa-mobile-screen",
+    "title": "Responsive Design",
+    "description": "Ensuring seamless experiences across desktop, tablet, and mobile devices."
+  },
+  {
+    "icon": "fa-solid fa-chart-pie",
+    "title": "Data Analysis",
+    "description": "Using data insights to optimize performance and improve decision-making."
+  }
+]
