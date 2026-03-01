@@ -2,12 +2,12 @@
     import Hero from "./Hero.svelte";
     import Cards from "./Cards.svelte";
     import '../app.scss';
-	  import Gallery from "./Gallery.svelte";
+	  import Quote from "./Quote.svelte";
 </script>
 
 <Hero/>
 <Cards/>
-<Gallery/>
+<Quote/>
 
 
 <style lang="scss">
