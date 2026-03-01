@@ -1,6 +1,6 @@
 <script lang="ts">
 import Quote from "../Quote.svelte";
- 
+
 </script>
 
 <Quote/>

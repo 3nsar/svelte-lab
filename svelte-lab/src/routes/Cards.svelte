@@ -1,6 +1,6 @@
 <script>
     import data from '../data.json'
-      import 'font-awesome/css/font-awesome.min.css';
+    
        
 </script>
 <div class="container">
