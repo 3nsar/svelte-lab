@@ -1,5 +1,6 @@
 <script>
   import { goto } from '$app/navigation';
+import 'font-awesome/css/font-awesome.min.css';
 
   function goToQuote() {
     goto('/quote');
