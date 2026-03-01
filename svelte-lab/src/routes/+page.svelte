@@ -2,10 +2,12 @@
     import Hero from "./Hero.svelte";
     import Cards from "./Cards.svelte";
     import '../app.scss';
+	import Info from "./Info.svelte";
 
 </script>
 
 <Hero/>
+<Info/>
 <Cards/>
 
 

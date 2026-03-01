@@ -19,14 +19,7 @@
 
 <style lang="scss">
 @import '../app.scss';
-.cards-container{
-    display: grid;
-    justify-content: center;
-    gap: 30px;
-    width: 100%;
-    grid-template-columns: repeat(3,300px);
-    
-}
+
 .card{
     margin: 10px;
     height:300px;

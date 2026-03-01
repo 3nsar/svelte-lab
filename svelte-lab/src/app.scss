@@ -1,8 +1,8 @@
 
   $primaryWhite: #f7f7f7;
-  $primaryGray: #696969;
+  $primaryGray: #7a7a7a;
   $primaryBlack: #0f0f0f;
-  $primaryLightBlack: #1a1a1a;
+  $primaryLightBlack: #141414;
   $primaryBlue:#2521e6;
 
   $fontSizeTitle:130px;
@@ -13,7 +13,7 @@
         padding: 0;
         box-sizing: border-box;
         font-family: Arial, sans-serif;    
-        line-height: 1.4;
+        line-height: 1.6;
         color: $primaryGray;
 
         
@@ -34,6 +34,26 @@
     background-color: $primaryBlack;
  }
 
+ .cards-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+    width: 100%;
+    grid-template-columns: repeat(3,300px);
+
+      @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 300px); 
+    
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 300px; 
+  }
+    
+}
+
  .button-big{
     background-color: $primaryBlue;
     color:$primaryWhite;
@@ -45,7 +65,11 @@
         cursor: pointer;
         background-color: #1816aa;
         transition:background-color 0.3s ease; /* 👈 Hier die Transition */
-}
+    }
+              @media (max-width: 900px) {
+                 padding: 10px;
+                 font-size: 20px;
+            }
 
  }
 
@@ -72,12 +96,19 @@
         color:$primaryWhite;
         font-size:   $fontSizeTitle;
         font-weight: bold;
+
+          @media (max-width: 900px) {
+             font-size: 65px;
+            }
     }
      h2{
        color: $primaryGray;
        font-size:  $fontSizeTitleText;
        font-weight: normal;
        margin-bottom: 40px;
+                 @media (max-width: 900px) {
+             font-size: 20px;
+            }
     }
   }
 
