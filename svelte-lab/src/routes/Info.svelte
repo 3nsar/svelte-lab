@@ -39,11 +39,14 @@
     }
 
     .block{
-        width: 480px;
+        max-width: 480px;
         
         h1{
             color:$primaryWhite;
             font-size: 45px;
+             @media (max-width: 700px) {
+             font-size: 35px;
+            }
         }
     }
         
